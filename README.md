@@ -1,25 +1,46 @@
-# nft-sys
-the pet nft payment
-Asset trading platform, users can view the electronic pet assets being traded on the homepage after logging in. Pet assets are bound and traded using blockchain technology
-Technology stack:
-Front-end architecture
-- React + TypeScript + SCSS + DAV + Webpack
-- State management: Redux Toolkit
-- Responsive design: Supports from mobile phones to large-screen displays
-- 3D rendering: Three.js for advanced pet display
-- Animation: Framer Motion improves user experience
-- Internationalization: i18next supports multiple languages
-Back-end architecture
-- Main service: Flask API (Python)
-- Real-time communication: Socket.IO
-- Database: PostgreSQL (main data) + Redis (cache)
-- Search engine: Elasticsearch (pet search optimization)
-- Blockchain monitoring: Web3.py
-- Cloud storage: AWS S3/Alibaba Cloud OSS
-- CDN: Cloudflare/Alibaba Cloud CDN
-Blockchain technology
-- Main network: Polygon (low gas fee)
-- Alternative network: Arbitrum, Optimism (multi-chain support)
-- Smart contract: Solidity + Hardhat development environment
-- Contract audit: Professional security audit
-- Cross-chain bridge: Support ETH mainnet and other chain asset transfer
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
